@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="230" viewBox="0 0 800 230" xml:space="preserve">
+<style>
+.t{font:15px 'Courier New',monospace;fill:#c9d1d9;white-space:pre}
+.g{fill:#3fb950}.b{fill:#58a6ff}.d{fill:#8b949e}
+.l{opacity:0;animation:in .4s forwards}
+@keyframes in{to{opacity:1}}
+@keyframes blink{50%{opacity:0}}
+.c{animation:blink 1s steps(1) infinite}
+</style>
+<rect width="800" height="230" rx="12" fill="#0d1117"/>
+<rect width="800" height="34" rx="12" fill="#161b22"/>
+<circle cx="22" cy="17" r="6" fill="#ff5f56"/><circle cx="42" cy="17" r="6" fill="#ffbd2e"/><circle cx="62" cy="17" r="6" fill="#27c93f"/>
+<text class="t d" x="330" y="22">sqlitelens</text>
+<text class="t l" x="24" y="66" style="animation-delay:.3s"><tspan class="g">$</tspan> python sqlitelens.py shop.db tables</text>
+<text class="t l d" x="24" y="94" style="animation-delay:1s">name      type   rows  columns</text>
+<text class="t l d" x="24" y="112" style="animation-delay:1.2s">--------  -----  ----  -------</text>
+<text class="t l" x="24" y="132" style="animation-delay:1.4s">users     table  1204  5</text>
+<text class="t l" x="24" y="152" style="animation-delay:1.6s">orders    table  8921  7</text>
+<text class="t l" x="24" y="172" style="animation-delay:1.8s">products  table  312   9</text>
+<text class="t l b" x="24" y="196" style="animation-delay:2.1s">(3 rows)</text>
+<text class="t l" x="24" y="218" style="animation-delay:2.4s"><tspan class="g">$</tspan></text>
+<rect class="c" x="40" y="205" width="9" height="15" fill="#58a6ff"/>
+</svg>
